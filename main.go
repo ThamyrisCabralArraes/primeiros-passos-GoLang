@@ -15,7 +15,8 @@ func calcular(a int) (int, int) {
 
 	return quadrado, cubo
 }
-//pode ser das duas maneiras, só em funcoes curtas
+
+// pode ser das duas maneiras, só em funcoes curtas
 func calcular2(a int) (quadrado int, cubo int) {
 	quadrado = a * a
 	cubo = a * a * a
@@ -25,18 +26,21 @@ func calcular2(a int) (quadrado int, cubo int) {
 
 func main() {
 	const (
-		nome string = "Thamyris"
-		idade int = 34
-		aberto = true
+		nome   string = "Thamyris"
+		idade  int    = 34
+		aberto        = true
 	)
 
-var Numero = math.Max(3, 5) // nao pega com const
-	
-fmt.Println(calcular(2))
+	var Numero = math.Max(3, 5) // nao pega com const
+
+	fmt.Println(calcular(2))
 	fmt.Println("maior numero", Numero)
 	fmt.Println("meu nome é", nome, "tenho", idade, "anos")
 	fmt.Println("valor da soma é", soma(2, 3))
 
-	fmt.Printf("tipo: %T Valor: %v", aberto, nome)
+	// fmt.Printf("tipo: %T Valor: %v", aberto, nome)
 
+	ifelse()
+	foreach()
+	while()
 }
