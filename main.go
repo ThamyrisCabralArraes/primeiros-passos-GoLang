@@ -34,6 +34,7 @@ func main() {
 	var Numero = math.Max(3, 5) // nao pega com const
 
 	fmt.Println(calcular(2))
+	fmt.Println(calcular2(2))
 	fmt.Println("maior numero", Numero)
 	fmt.Println("meu nome é", nome, "tenho", idade, "anos")
 	fmt.Println("valor da soma é", soma(2, 3))
@@ -43,4 +44,6 @@ func main() {
 	ifelse()
 	foreach()
 	while()
+	array()
+	slice()
 }
