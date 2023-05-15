@@ -8,12 +8,18 @@ func slice() {
 	fmt.Println(numeros2[2:])
 	fmt.Println(numeros2[:5])
 
-	var nomes = [3]string{"Ana", "Jose", "Maria"}
+	var nomes = [3]string{
+		"Ana",
+		"Jose",
+		"Maria",
+	}
 
 	fmt.Println(nomes[0:2])
 	var nomesModificados [3]string = nomes
 	nomesModificados[0] = "thamyris"
 	fmt.Println("nomes modificados", nomesModificados)
 	fmt.Println("nomes originais", nomes)
+	fmt.Printf("%T\n", nomes) // \n é a quebra de linha
+	fmt.Println("length", len(nomes))
 
 }
