@@ -46,4 +46,6 @@ func main() {
 	while()
 	array()
 	slice()
+	makeSlice()
+	appends()
 }
