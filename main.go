@@ -48,4 +48,5 @@ func main() {
 	slice()
 	makeSlice()
 	appends()
+	sliceDeSlice()
 }
